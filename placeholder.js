@@ -1,5 +1,7 @@
+
 function setup (){
-  createCanvas (655,180);
+  var placeholder =createCanvas (655,180);
+  placeholder.parent('placeholder');
   background(169,169,169);
 }
 
