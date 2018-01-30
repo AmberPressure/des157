@@ -1,5 +1,5 @@
 body {
-  height: 400px;
+  height: 200px;
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 100%;
@@ -9,12 +9,11 @@ header {
   min-width: 600px;
 }
 
-
 h1 {
   position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: helvetica;
   font-size: 50px;
   font-weight: normal;
@@ -24,9 +23,9 @@ h1 {
 }
 
 article {
+  top: -270px;
   align: center;
   position: relative;
-  top: 5%;
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
@@ -81,7 +80,11 @@ input[type="reset"], input[type="submit"] {
   text-align: center;
 }
 
+/*results*/
+
 section p {
+  top: -600px;
+  position: relative;
   width: 100%;
   min-width: 700px;
   margin-left: 12px;
