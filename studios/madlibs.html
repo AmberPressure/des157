@@ -3,25 +3,84 @@
 <html>
 
 <head>
-  <title></title>
-  <link rel="icon" href="">
-  <link href=".css" rel="stylesheet">
+  <title>Mad Libs</title>
+  <link rel="icon" href="images/logotemp.png">
+  <link rel="stylesheet" type="text/css" href="stylesheets/madlibs.css">
+  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="form">
-      <h1></h1>
-      <h2></h2>
-      <form class="row" name="f">
-        <div class="col">
-        </div>
-        <div class="col">
+  <header>
+    <h1>D&D Character Generator</h1>
+    <ul>
+      <li><a href="https://github.com/AmberPressure"><img src="images/octocat.png" alt="github" style="width:40px;height:40px;border:0"></a></li>
+      <li><a href="mailto:ambkumar@ucdavis.edu"><img src="images/email.png" alt="email" style="width:40px;height:40px;border:0"></a></li>
+      <li><a href="https://validator.w3.org/check?uri=referer"><img src="images/html.png" alt="HTML Validation" style="width:40px;height:40px;border:0"></a></li>
+      <li><a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/css.png" alt="CSS Validation" style="width:40px;height:40px;border:0"></a></li>
+      <li><a href="https://amberpressure.github.io/des157/"><img src="images/logotemp.png" alt="GitHub" style="width:40px;height:40px;border:0"></a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+    <img src="images/dice.jpg" alt="dice" style="width:100%; height:100%; border:0"></a>
+    <article>
+      <form name="f">
+        <div>
+          <label for="userName">Name</label>
+          <input type="text" name="userName" required>
         </div>
 
+        <div>
+          <label for="userClass">D&D Class</label>
+          <input type="text" name="userClass" required>
+        </div>
 
-    </div>
+        <div>
+          <label for="userRace">D&D Race</label>
+          <input type="text" name="userRace" required>
+        </div>
+
+        <div>
+          <label for="userValuable">Valuable Items</label>
+          <input type="text" name="userValuable" required>
+        </div>
+
+        <div>
+          <label for="userEnemy">Enemy</label>
+          <input type="text" name="userEnemy" required>
+        </div>
+
+        <div>
+          <label for="userVerb">Present-Tense Verb</label>
+          <input type="text" name="userVerb" required>
+        </div>
+
+        <div>
+          <label for="userSkill">Skill</label>
+          <input type="text" name="userSkill" required>
+        </div>
+
+        <div>
+          <label for="userHome">Home</label>
+          <input type="text" name="userHome" required>
+        </div>
+
+        <div>
+          <input type="reset" value="reset" />
+          <input type="submit" value="submit" />
+        </div>
+
+      </form>
+    </article>
+
+    <section id="results">
+      <p id="myMsg"></p>
+    </section>
+
   </div>
 
-
+  <script src="madlibs.js"></script>
 </body>
+
+</html>

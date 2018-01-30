@@ -1,0 +1,121 @@
+body {
+  height: 400px;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+header {
+  min-width: 600px;
+}
+
+
+h1 {
+  position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-family: helvetica;
+  font-size: 50px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+article {
+  align: center;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  min-width: 700px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  opacity: 0.75;
+}
+
+div {
+  margin: 2%;
+}
+
+label {
+  width: 7em;
+  text-align: right;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 3%;
+  border: none;
+  /*remove default*/
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #909090;
+  color: white;
+}
+
+input[type="text"]:focus {
+  background-color: #CFCFCF;
+  color: black;
+}
+
+div:last-child {
+  text-align: center;
+}
+
+input[type="reset"], input[type="submit"] {
+  width: 20%;
+  margin: 2%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #151515;
+  color: #E7E7E7;
+  text-align: center;
+}
+
+section p {
+  width: 100%;
+  min-width: 700px;
+  margin-left: 12px;
+  padding: 24px;
+  border-radius: 11px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  background-color: #696969;
+  color: white;
+}
+
+/*oooh yeahhh lists wassup*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #333;
+  position: fixed;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 1px;
+  text-decoration: none;
+  padding-left: 30px;
+  opacity: 1;
+}
