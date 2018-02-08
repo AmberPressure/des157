@@ -1,0 +1,94 @@
+header {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 90%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 70px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+#person {
+  position: relative;
+  align-items: center;
+  margin: auto;
+  max-width: 75%;
+}
+
+#backpack {
+  position:absolute;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#laptop {
+  width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  display: block;
+  opacity: 0;
+  border: 3px solid pink;
+}
+
+#laptopInfo {
+  width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  display: block;
+  opacity: 0;
+}
+
+#bottle {
+  width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  display: block;
+  opacity: 0;
+  border: 3px solid pink;
+}
+
+#bottleInfo {
+  width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  display: block;
+  opacity: 0;
+}
+
+#book {
+  max-width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  display: block;
+  opacity: 0;
+  border: 3px solid pink;
+}
+
+#bookInfo {
+  max-width: 25%;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  display: block;
+  opacity: 0;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
