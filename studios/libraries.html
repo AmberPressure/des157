@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>Zodiac Signs & FB Friends</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logotemp.png">
+<link rel="stylesheet" type="text/css" href="stylesheets/libraries.css">
+
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+  <div id="myDiv">
+    <!-- Plotly chart will be drawn inside this DIV -->
+  </div>
+  <article>
+    <p>I've always had a vested interest in astrology, and as an Indian woman, to a degree, your life is controlled by the stars. Whether it be auspicious dates for you to get married, start and end studying, or when to have children, your numerology chart
+      is consulted to make sure that everything is taken care of. </p>
+    <p>Thus, in tandem with my interest in data visualisation and statistics, I decided to test whether or not the people I befriend or am compatible with has anything to do with any sort of cosmic alignment. My hypothesis was that there is no correlation
+      with the people I befriend and my numerology chart.</p>
+    <p>For ease and simplicity and to let plotly.js shine, I decided to only use my sun sign instead of the whole nine yards of rising signs, ruling planets and my moon sign. My sun sign is a libra, and they are characterised as stylish, graceful, and charming.
+      Supposedly, they are fantastic diplomats, people-pleasers, and indecisive, maybe that's true? I don't know. As a disclaimer, I do not really believe in horoscopes and the like, I'm more interested in them in a very fun and social level, but I don't
+      live my life around my zodiac sign or anything.</p>
+    <p>I also decided to use my Facebook friends as my guinea pigs here; as of 2/21/2018 at 4:10PM PST, I have 824 Facebook friends, but only 706 of those friends have a birthday publically available on their profile. I then divided them into 12 sections,
+      one for each of the signs, and went further to see which element they lie in.</p>
+    <p>Libras are air signs, and typically don't meld with earth signs, as they are on the opposite side of the elemental spectrum. Interestingly enough, though most of the data was well distributed, out of my aggregate Facebook friends, the fewest percentage
+      of them belonged to earth signs. According to all the literature I've read regarding compatibility with libras, they gel the best with gemini, leo, other libras, sagittarius, and aquarius. Respectively, out of the entire group, 8.6%, 9.3%, 7.8%,
+      7.2%, and 8.8% for the aforementioned signs. This completely overlooks the fact that most of my friends are Cancers (har har) at a whopping 9.9% of my total friend group.</p>
+  </article>
+
+  <!--new div for fb friends-->
+  <div id="newDiv">
+    <!-- Plotly chart will be drawn inside this DIV -->
+  </div>
+  <article>
+    <p>In an effort to get a closer look, and under the acknowledgment that I don't really talk to that many people on Facebook in general, I decided to use the algorithm to see who I talk to the most on Facebook. Using a simplified Dunbar's number (because
+      I was NOT about to use a sample size of 150), I monitored my top 20 Facebook friends and juxtaposed the data I found from the aggregate 706 with the dramatically tinier 20 people. </p>
+    <p>Funnily enough, in this group, 35% of my friends were earth signs, which was the largest out of all the elemental signs.</p>
+    <p>I conclude that astrology, while fun, is absolute garbage, and should NOT be used to control people's lives in arbitrary ways. </p>
+  </article>
+
+  <footer>
+    <div class="w3-section" id="cutefoot">
+      <a href="https://github.com/AmberPressure"><img src="images/octocat.png" alt="github" style="width:30px;height:30px;border:0"></a>
+      <a href="mailto:ambkumar@ucdavis.edu"><img src="images/email.png" alt="email" style="width:30px;height:30px;border:0"></a>
+      <a href="https://validator.w3.org/check?uri=referer"><img src="images/html.png" alt="HTML Validation" style="width:30px;height:30px;border:0"></a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/css.png" alt="CSS Validation" style="width:30px;height:30px;border:0"></a>
+      <a href="https://amberpressure.github.io/des157/"><img src="images/logotemp.png" alt="GitHub" style="width:30px;height:30px;border:0"></a>
+      <a href="https://plot.ly/feed/"><img src="images/plotly.png" alt="Plotly" style="width:30px;height:30px;border:0"></a>
+    </div>
+  </footer>
+
+
+
+  <script src="js/libraries.js"></script>
+
+
+
+
+</body>
+
+</html>

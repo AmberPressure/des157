@@ -1,0 +1,28 @@
+article{
+  font-weight: lighter;
+  font-family: verdana, sans-serif;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-style: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+div{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
