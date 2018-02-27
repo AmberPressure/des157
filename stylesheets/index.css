@@ -1,6 +1,5 @@
 /* START CSS RESET */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -14,7 +13,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   border: 0;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -42,18 +40,15 @@ blockquote:before, blockquote:after, q:before, q:after {
   content: none;
 }
 
-
-
-
 /* end css reset */
-
 
 /* START STRUCTURAL STYLES */
 
-header{
+header {
   padding-left: 215px;
   padding-top: 100px;
 }
+
 div {
   width: 1024px;
   margin: auto;
@@ -62,14 +57,11 @@ div {
 footer {
   clear: both;
   padding-top: 50px;
-  padding-right: 350px;
+  padding-right: 300px;
   float: right;
 }
 
-
-
 /* end structural styles */
-
 
 /* START MAIN CONTENT STYLES */
 
@@ -79,27 +71,31 @@ h2 {
   margin-bottom: 24px;
 }
 
-.column2{
+.row {
+  padding-top: 50px;
+  padding-left: 205px;
+}
+
+.column2 {
   float: left;
   width: 300px;
   padding: 15px;
-  height: 150px;
+  height: 200px;
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 10px;
 }
 
-.column3{
+.column3 {
   float: left;
   width: 300px;
   padding: 15px;
-  height: 150px;
+  height: 200px;
   text-align: center;
   padding-left: 10px;
   margin-left: 10px;
 }
-
 
 a:link {
   font-size: 18px;
@@ -119,7 +115,7 @@ a:active {
   color: #828282;
 }
 
-div{
+div {
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
@@ -127,14 +123,16 @@ div{
 
 /* end main content styles */
 
-
 /* START FOOTER STYLES */
 
-footer li {
-  float: left;
-  width: 256px;
-  text-align: center;
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
 }
-
-
 /* end footer styles */
