@@ -1,28 +1,37 @@
 
 function setup (){
-  var placeholder =createCanvas (655,180);
+  var placeholder =createCanvas (655,250);
   placeholder.parent('placeholder');
   background(169,169,169);
-  strokeWeight(20.0);
+  strokeWeight(9);
   stroke(255, 100);
 }
 
-var x = 100,
-  y = 100,
-  angle1 = 0.0,
-  segLength = 50;
+var x = [],
+  y = [],
+  segNum = 20,
+  segLength = 18;
+
+for (var i = 0; i < segNum; i++) {
+  x[i] = 0;
+  y[i] = 0;
+}
 
 function draw() {
   background(0);
+  dragSegment(0, mouseX, mouseY);
+  for( var i=0; i<x.length-1; i++) {
+    dragSegment(i+1, x[i], y[i]);
+  }
+}
 
-  dx = mouseX - x;
-  dy = mouseY - y;
-  angle1 = atan2(dy, dx);
-  x = mouseX - (cos(angle1) * segLength);
-  y = mouseY - (sin(angle1) * segLength);
-
-  segment(x, y, angle1);
-  ellipse(x, y, 20, 20);
+function dragSegment(i, xin, yin) {
+  var dx = xin - x[i];
+  var dy = yin - y[i];
+  var angle = atan2(dy, dx);
+  x[i] = xin - cos(angle) * segLength;
+  y[i] = yin - sin(angle) * segLength;
+  segment(x[i], y[i], angle);
 }
 
 function segment(x, y, a) {
