@@ -63,7 +63,7 @@ div {
 h2 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -80,6 +80,7 @@ h2 {
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 10px;
+  font-size: 11px;
 }
 
 .column3 {
@@ -90,6 +91,7 @@ h2 {
   text-align: center;
   padding-left: 10px;
   margin-left: 10px;
+  font-size: 11px;
 }
 
 a:link {
@@ -103,7 +105,8 @@ a:visited {
 }
 
 a:hover {
-  color: #8e366d;
+  color: #ffb6c1;
+  text-decoration: underline;
 }
 
 a:active {

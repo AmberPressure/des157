@@ -2,14 +2,14 @@
 function setup (){
   var placeholder =createCanvas (655,250);
   placeholder.parent('placeholder');
-  background(169,169,169);
-  strokeWeight(9);
-  stroke(255, 100);
+  background(255,182,193);
+  strokeWeight(20);
+  stroke(255,215,220);
 }
 
 var x = [],
   y = [],
-  segNum = 20,
+  segNum = 100,
   segLength = 18;
 
 for (var i = 0; i < segNum; i++) {
