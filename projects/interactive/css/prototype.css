@@ -1,8 +1,16 @@
+header{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  align-items: center;
+  display: flex;
+}
+
 * {
   : border-box;
 }
 .searchbar {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
