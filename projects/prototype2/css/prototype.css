@@ -1,0 +1,204 @@
+header{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  align-items: center;
+  display: flex;
+}
+
+
+* {
+  : border-box;
+}
+
+/*search*/
+
+#searchform { display: block; margin: 0 auto; width: 100%; max-width: 500px; transform: translateY(10%); }
+
+span { font-size: 1.5em; }
+#search-bar { display: block; margin: .25em 0 0; width: 100%; padding: .25em .5em; font-size: 1.2em; }
+
+.output {
+  list-style: none;
+  width: 100%;
+  min-height: 0px;
+  border-top: 0 !important;
+  color: #767676;
+  font-size: .75em;
+  transition: min-height 0.2s;
+  position: absolute;
+  z-index: 5;
+}
+
+.output, #search-bar {
+  background: #fff;
+  border: 1px solid #767676;
+}
+
+.prediction-item {
+  padding: .5em .75em;
+  transition: color 0.2s, background 0.2s;
+}
+
+.output:hover .focus {
+  background: #fff;
+  color: #767676;
+}
+
+.prediction-item:hover, .focus,
+.output:hover .focus:hover {
+  background: #ddd;
+  color: #333;
+}
+
+
+.prediction-item strong { color: #333; }
+.prediction-item:hover strong { color: #000; }
+
+
+#submit {
+  display: block;
+  margin: .5em 0 2.5em;
+  padding: .25em .5em;
+  font-size: 1.2em;
+  color: black;
+  border: 2px solid black;
+  background: 0;
+  transition: color 0.2s, background 0.2s;
+}
+
+#submit:hover {
+  color: #fff;
+  border: 2px solid pink;
+  background: pink;
+}
+
+
+/* body color and font */
+
+body {
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+/* responsive with centered text on background color */
+
+h1 {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+/* buttons */
+.button {
+    background-color: #ffb6c1;
+    border: none;
+    color: white;
+    padding: 100px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 5px solid #000;
+}
+
+.button1:hover {
+    background-color: #ffb6c1;
+    color: white;
+    border: 5px solid #ffb6c1;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 5px solid #000;
+}
+
+.button2:hover {
+    background-color: #ffb6c1;
+    color: white;
+    border: 5px solid #ffb6c1;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 5px solid #000;
+}
+
+.button3:hover {
+    background-color: #ffb6c1;
+    color: white;
+    border: 5px solid #ffb6c1;
+}
+
+/* img display and border-bottom */
+
+img {
+  display: block;
+  margin: auto;
+  padding: 14px;
+  border-bottom: 15px;
+}
+
+/* remove border-right on last img */
+
+img:last-child {
+  border: none;
+}
+
+/* media query for desktop */
+
+@media only screen and (min-width: 768px) {
+  /* change h1 color */
+  h1 {
+    padding-top: 50px;
+    color: black;
+  }
+  /* change img parameters */
+  img {
+    display: inline;
+    padding: 14px;
+    border-bottom: 0px;
+  }
+  /* center section */
+  section {
+    text-align: center;
+  }
+}
+
+article {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-style: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 125px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}

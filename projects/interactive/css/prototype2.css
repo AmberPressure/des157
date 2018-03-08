@@ -1,0 +1,167 @@
+header{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  align-items: center;
+  display: flex;
+}
+
+* {
+  : border-box;
+}
+
+/*searchbar in js*/
+.searchbar {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar #searchbar-input {
+  border: 0px solid;
+  border-bottom: 2px solid pink;
+  width: 600px;
+  font-size: 4.9rem;
+  outline: none;
+  color: #606060;
+  display: none;
+}
+.searchbar .fa-times {
+  display: none;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.searchbar .fa-search {
+  font-size: 5rem;
+  cursor: pointer;
+}
+/* body color and font */
+
+body {
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+/* responsive with centered text on background color */
+
+h1 {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+/* img display and border-bottom */
+
+/*button styling*/
+.buttons{
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  position: relative;
+  margin-left: -8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 250px;
+  color: white;
+}
+
+#f21 {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#f21:hover {
+  background-color: rgba(255, 182, 193, 1);
+}
+
+#hm {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#hm:hover {
+  background-color: rgba(255, 182, 193, 1);
+}
+
+#topshop {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#topshop:hover {
+  background-color: rgba(255, 182, 193, 1);
+}
+
+/*button styling ends*/
+
+
+img {
+  display: block;
+  margin: auto;
+  padding: 14px;
+  border-bottom: 15px;
+}
+
+/* remove border-right on last img */
+
+img:last-child {
+  border: none;
+}
+
+/* media query for desktop */
+
+@media only screen and (min-width: 768px) {
+  /* change h1 color */
+  h1 {
+    padding-top: 50px;
+    color: black;
+  }
+  /* change img parameters */
+  img {
+    display: inline;
+    padding: 14px;
+    border-bottom: 0px;
+  }
+  /* center section */
+  section {
+    text-align: center;
+  }
+}
+
+article {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-style: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
