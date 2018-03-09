@@ -1,12 +1,9 @@
 $(document).ready(function(){
 
 var $terms = [
-  'forever',
-  '21',
-  'forever 21',
+  'forever21',
   'topshop',
-  'hm',
-  'h&m'
+  'hm'
    ].sort(),
    $return = [];
 
