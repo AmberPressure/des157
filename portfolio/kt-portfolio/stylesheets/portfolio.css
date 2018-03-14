@@ -1,0 +1,161 @@
+/*nav bar*/
+header {
+  text-align: justify;
+  letter-spacing: 1px;
+  color: red;
+  text-transform: uppercase;
+  font-family: 'avenir', sans-serif;
+  background-color: #fff19c;
+}
+
+header::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+header > div,
+header > div::before,
+header > div h1,
+header nav {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 50px;
+}
+
+header > div {
+  height: 100%;
+}
+
+header > div::before {
+  content: '';
+  height: 100%;
+}
+
+header nav a {
+  padding: 0 0.6em;
+  white-space: nowrap;
+}
+
+header nav a:last-child {
+  padding-right: 0;
+}
+
+header h1:hover,
+header nav a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+  }
+
+  header > div,
+  header > div h1,
+  header nav {
+    height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+}
+/*end nav bar and header*/
+
+* {
+  : border-box;
+}
+
+/* body color and font */
+
+body {
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+/* responsive with centered text on background color */
+
+h1 {
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+/* img display and border-bottom */
+
+img {
+  display: block;
+  margin: auto;
+  padding: 14px;
+  border-bottom: 15px;
+}
+
+/* remove border-right on last img */
+
+img:last-child {
+  border: none;
+}
+
+/* media query for desktop */
+
+@media only screen and (min-width: 768px) {
+  /* change h1 color */
+  h1 {
+    color: white;
+  }
+  /* change img parameters */
+  img {
+    display: inline;
+    padding: 14px;
+    border-bottom: 0px;
+  }
+  /* center section */
+  section {
+    text-align: center;
+  }
+}
+
+article {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-style: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding-bottom: 5%;
+}
+
+/*footer*/
+hr{
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+  border-color: #EC7700;
+
+}
+#contact {
+  line-height: 50px;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #fff19c;
+  /* Set the navbar to fixed position */
+}
+footer{
+    background-color: #fff19c;
+
+}
