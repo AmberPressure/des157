@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,h2{
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  text-style: justify;
+  text-justify: inter-word;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
