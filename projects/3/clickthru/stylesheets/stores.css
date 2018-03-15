@@ -1,0 +1,44 @@
+header {
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: avenir, sans-serif;
+  font-weight: lighter;
+}
+
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+article {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  padding-left: 100px;
+  text-style: justify;
+  text-justify: inter-word;
+  padding-right: 100px;
+  width: 80%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+footer {
+  line-height: 50px;
+  text-align: left;
+  padding-left: 100px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 10px;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
