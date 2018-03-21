@@ -92,14 +92,12 @@ h1, article {
   margin-left: 12px;
 }
 
-h1 {
-  position: relative;
-  padding-top: 25%;
-  font-family: avenir;
-  font-size: 50px;
-  font-weight: normal;
-  color: black;
+h2{
+  padding-top: 15%;
+  width: 90%;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 article {
