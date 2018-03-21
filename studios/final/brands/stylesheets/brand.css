@@ -111,6 +111,24 @@ h2{
 	font-weight: lighter;
 }
 
+#beginning{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: avenir;
+	font-weight: lighter;
+
+}
+
+#verdict{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: avenir;
+	font-weight: lighter;
+
+}
+
 /* unvisited link */
 a:link {
     color: red;
