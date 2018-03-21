@@ -102,6 +102,15 @@ h2{
 	text-decoration: none;
 }
 
+#rating{
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: avenir;
+	font-weight: lighter;
+}
+
 /* unvisited link */
 a:link {
     color: red;
