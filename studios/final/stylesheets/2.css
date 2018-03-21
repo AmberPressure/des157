@@ -1,0 +1,153 @@
+* {
+  : border-box;
+}
+
+/* body color and font */
+
+body {
+  font-family: avenir;
+  font-weight: lighter;
+  font-size: 100%;
+}
+
+/* responsive with centered text on background color */
+
+h1 {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+
+/* img display and border-bottom */
+
+img {
+  display: block;
+  margin: auto;
+  padding: 14px;
+  border-bottom: 15px;
+}
+
+/* remove border-right on last img */
+
+img:last-child {
+  border: none;
+}
+
+/* media query for desktop */
+
+@media only screen and (min-width: 768px) {
+  /* change h1 color */
+  h1 {
+    padding-top: 50px;
+    color: black;
+  }
+  /* change img parameters */
+  img {
+    display: inline;
+    padding: 14px;
+    border-bottom: 0px;
+  }
+  /* center section */
+  section {
+    text-align: center;
+
+  }
+}
+
+article {
+  font-weight: lighter;
+  font-family: avenir, sans-serif;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-style: justify;
+  text-justify: inter-word;
+  width: 80%;
+  padding-bottom: 5%;
+  font-size: 50%;
+}
+
+/*nav*/
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color: black;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+  font-weight: lighter;
+	font-family: avenir;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#CCA8AD;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background: #FFD3D9;
+  color: white;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
