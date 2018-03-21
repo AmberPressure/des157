@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Presentation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/logotemp.png">
+<script type="text/javascript">
+
+function detectBrowser()
+{
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
+
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+}
+
+</script>
+
+<body bgcolor="black" onload="detectBrowser()">
+</body>
+
+</html>
