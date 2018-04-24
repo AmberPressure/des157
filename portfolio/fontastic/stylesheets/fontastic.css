@@ -96,7 +96,7 @@ img:last-child {
     display: inline;
     padding: 14px;
     border-bottom: 0px;
-    padding-bottom: 10%;
+    border-bottom: 2px, black;
   }
   /* center section */
   section {
@@ -114,4 +114,8 @@ article {
   text-justify: inter-word;
   width: 80%;
   padding-bottom: 5%;
+}
+
+hr{
+  width: 80%;
 }
