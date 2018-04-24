@@ -11,6 +11,7 @@ header {
   align-items: left;
   position: fixed;
   text-align: center;
+  background-color: hotpink;
 }
 
 /* unvisited link */
