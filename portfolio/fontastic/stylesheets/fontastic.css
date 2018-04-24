@@ -24,7 +24,7 @@ a:link {
 /* visited link */
 
 a:visited {
-  color: black;
+  color: #eac1d9;
   text-decoration: none;
   background-color: hotpink;
 }
